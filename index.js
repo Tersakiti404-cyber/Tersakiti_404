@@ -78,10 +78,10 @@ const vcard = 'BEGIN:VCARD\n' // JAN DI UBAH
             + 'VERSION:3.0\n' // JAN DI UBAH
             + 'FN: OWNER GANS\n' // NAMA KONTAK OWNER
             + 'ORG:Creator ANKER;\n' // NAMA CREATOR
-            + 'TEL;type=CELL;type=VOICE;waid=628885960825:+62 888-5960-825\n' // NOMER HP LU
+            + 'TEL;type=CELL;type=VOICE;waid=6281333782061:+62813-3378-2061\n' // NOMER HP LU
             + 'END:VCARD'
 prefix = '.'
-blocked = ['628885960825@s.whatsapp.net']
+blocked = ['6281333782061@s.whatsapp.net']
 
 function kyun(seconds){
   function pad(s){
@@ -200,11 +200,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["628885960825@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"628885960825@s.whatsapp.net"]
-			const adminbotnumber = ["628885960825@s.whatsapp.net"]
-			const frendsowner = ["628885960825@s.whatsapp.net"]
-			const premium = ["628885960825@s.whatsapp.net"]
+			const ownerNumber = ["6281333782061@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"6281333782061@s.whatsapp.net"]
+			const adminbotnumber = ["6281333782061@s.whatsapp.net"]
+			const frendsowner = ["6281333782061@s.whatsapp.net"]
+			const premium = ["6281333782061@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -609,13 +609,13 @@ async function starts() {
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					tod = await getBuffer(`https://i.ibb.co/CbZg6G5/IMG-20210106-WA0040.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT DARK ✨* 」\n*│+wa.me/6281368646011*╰──────*「 *DARK* 」*────*\n\n*_JIKA INGIN MENJADI ADMIN  DARK BOT_*\n*_Ketik /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT DARK ✨* 」\n*│+wa.me/6281333782061*╰──────*「 *DARK* 」*────*\n\n*_JIKA INGIN MENJADI ADMIN  DARK BOT_*\n*_Ketik /iklan_*' })
 					break
 					case 'premiumcek':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/Gv5W97v/IMG-20210106-WA1995.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/6281368646011*╰──────*「 * DARK* 」*────*\n\n*_JIKA INGIN MENJADI PREMIUM USER  DARK BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/6281333782061*╰──────*「 * DARK* 」*────*\n\n*_JIKA INGIN MENJADI PREMIUM USER  DARK BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
@@ -2195,7 +2195,7 @@ if (isBanned) return reply(mess.only.benned)
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6281368646011@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281333782061@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 			 case 'request':
@@ -2210,7 +2210,7 @@ if (isBanned) return reply(mess.only.benned)
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6281368646011@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281333782061@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Request telah di laporkan ke owner BOT, request  yang dapat membebani owner tidak akan ditanggapi.')
                     break
 				case 'meme': 
